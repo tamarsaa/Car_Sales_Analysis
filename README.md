@@ -47,47 +47,37 @@ To run this project, you need:
 - unittest (built-in with Python)
 
 Install them using:
-```bash
+bash
 pip install -r requirements.txt
 
-How to Run
-
+How to Run:
 Clone the repository:
+bash
 git clone https://github.com/tamarsaa/car_sales_data_analysis.git
 cd car_sales_data_analysis
 
-
 Install the dependencies:
-
+bash
 pip install -r requirements.txt
 
-
 Run the analysis:
-
+bash
 python car_sales_analysis.py
 
-
-How to Test
+How to Test:
 Set Up Virtual Environment (Optional but recommended):
 Create and activate a virtual environment to isolate the testing environment.
-
+bash
 python -m venv venv
 source venv/bin/activate
 Or On Windows:
+bash
 venv\Scripts\activate
 
-
 Install Dependencies:
-
+bash
 pip install -r requirements.txt
 
-
 Run the tests:
-
+bash
 python -m unittest test_sales_analysis.py
-
-
-### Future Improvements
-Looking ahead, potential improvements include expanding the dataset to include more comprehensive sales data, integrating additional analysis functions to explore different aspects of the sales process, and enhancing the visualizations with more interactive elements. Additionally, exploring the use of machine learning models to predict sales trends based on historical data could add significant value to the project.
-
-
